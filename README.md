@@ -18,7 +18,19 @@ The main goal of this project is to predict the mortality risk of COVID-19 patie
 
 ## Requirements
 
-To run the notebook and replicate the results, install the required dependencies:
+To run the notebook and replicate the results, install the required dependencies.
 
-```bash
-pip install -r requirements.txt
+### Major Libraries:
+- Scikit-learn
+- Pandas
+- NumPy
+
+## Instructions
+
+1. Clone the repository from GitHub.
+2. Open the Jupyter notebook (`code.ipynb`) and run all the cells to reproduce the model training and evaluation.
+
+## Conclusion
+
+The Logistic Regression model showed better sensitivity compared to the Decision Tree, Gaussian Naive Bayes, and Bernoulli Naive Bayes models, making it the best choice for predicting high-risk COVID-19 patients.
+"""
